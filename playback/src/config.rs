@@ -26,11 +26,11 @@ impl FromStr for Bitrate {
 #[derive(Clone, Copy, Debug, Hash, PartialOrd, Ord, PartialEq, Eq, Default)]
 pub enum AudioFormat {
     F64,
+    #[default]
     F32,
     S32,
     S24,
-    S24_3,
-    #[default]
+    S24_3,    
     S16,
 }
 
