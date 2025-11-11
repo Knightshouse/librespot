@@ -95,7 +95,7 @@ pub struct ConnectConfig {
 impl Default for ConnectConfig {
     fn default() -> Self {
         Self {
-            name: "librespot".to_string(),
+            name: "Schlafzimmer".to_string(),
             device_type: DeviceType::Speaker,
             is_group: false,
             initial_volume: u16::MAX / 2,
