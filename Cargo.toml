@@ -137,7 +137,7 @@ name = "librespot"
 path = "src/lib.rs"
 
 [[bin]]
-name = "librespot"
+name = "Librespot-Wohnzimmer"
 path = "src/main.rs"
 doc = false
 
