@@ -6,8 +6,8 @@ use crate::{convert::i24, player::duration_to_coefficient};
 #[derive(Clone, Copy, Debug, Hash, PartialOrd, Ord, PartialEq, Eq, Default)]
 pub enum Bitrate {
     Bitrate96,
-    #[default]
     Bitrate160,
+    #[default]
     Bitrate320,
 }
 
